@@ -1,4 +1,4 @@
-Test
+# Task
 Depending on the role you are applying for, please create an iOS or Android app using the following requirements:
 
 Latest Swift on iOS or Kotlin on Android
@@ -15,3 +15,7 @@ API calls must use JWT authorization bearer using HMAC 256 and base64-encoded se
 The JWT payload should include an object with two properties "uid" and "identity" with any values
 API call for listing of people ids: GET: /list
 API call for getting Detialed Profile: GET: /get/{id} where {id} is the id of the profile you get back from the list.
+
+
+# Solution
+## https://test-task-beta-ruby.vercel.app/
