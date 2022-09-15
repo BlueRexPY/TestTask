@@ -23,7 +23,7 @@ export default class Calculation {
 
     calculate() {  
         let pattern =(/([-+*/])/)
-        let num =(/[0-9.]+|(\..*)\s/g)
+        let num =(/[0-9.]+|(\*)\s/g)
         
         if (this.expression.match(pattern)) {
             this.a = parseFloat(this.expression.match(num)[0])
