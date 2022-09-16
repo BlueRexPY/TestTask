@@ -1,56 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="9" failures="3" time="3.005">
-  <testsuite name="src\test\calculation.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-09-15T07:52:37" time="1.505" tests="5">
+<testsuites name="jest tests" tests="9" failures="0" time="2.362">
+  <testsuite name="src\test\calculation.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-09-15T12:43:26" time="1.155" tests="5">
     <testcase classname="Calculation › operations" name="should not be equal to 4359.0908 and should&apos;nt return" time="0.002">
     </testcase>
     <testcase classname="Calculation › operations" name="should return 10.51" time="0">
     </testcase>
-    <testcase classname="Calculation › operations" name="should return 149991" time="0">
+    <testcase classname="Calculation › operations" name="should return 149991" time="0.001">
     </testcase>
     <testcase classname="Calculation › operations" name="should return 3407.25" time="0">
     </testcase>
     <testcase classname="Calculation › operations" name="should return 2157.1" time="0">
     </testcase>
   </testsuite>
-  <testsuite name="src\test\view.spec.js" errors="0" failures="3" skipped="0" timestamp="2022-09-15T07:52:37" time="1.6" tests="4">
-    <testcase classname="View" name="should render layout with Layout component" time="0.002">
+  <testsuite name="src\test\view.spec.js" errors="0" failures="0" skipped="0" timestamp="2022-09-15T12:43:26" time="1.235" tests="4">
+    <testcase classname="View" name="should render layout with Layout component" time="0.003">
     </testcase>
-    <testcase classname="View" name="should be one Paragraph component on the page" time="0.02">
-      <failure>Expected value   1
-Received:
-  2
-
-Message:
-  expected 2 to equal 1
-    at Object.&lt;anonymous&gt; (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\src\test\view.spec.js:29:37)
-    at Object.asyncJestTest (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
-    at D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
-    at D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\queueRunner.js:73:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    <testcase classname="View" name="should be one Paragraph component on the page" time="0.015">
     </testcase>
-    <testcase classname="View" name="should return right result for addition" time="0.005">
-      <failure>Error: Did not find exactly one match (found: 2) for class:btn-success
-    at findRenderedDOMComponentWithClass (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\react-dom\cjs\react-dom-test-utils.development.js:1260:13)
-    at Object.&lt;anonymous&gt; (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\src\test\view.spec.js:35:24)
-    at Object.asyncJestTest (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
-    at D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
-    at D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\queueRunner.js:73:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    <testcase classname="View" name="should return right result for addition" time="0.008">
     </testcase>
-    <testcase classname="View" name="should render &quot;Wrong input!&quot; in paragraph when wrong input given" time="0.003">
-      <failure>Error: Did not find exactly one match (found: 2) for class:btn-success
-    at findRenderedDOMComponentWithClass (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\react-dom\cjs\react-dom-test-utils.development.js:1260:13)
-    at Object.&lt;anonymous&gt; (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\src\test\view.spec.js:52:24)
-    at Object.asyncJestTest (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
-    at D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
-    at D:\JS\React\TestTask\DevSkiller\devskiller-code-FU7D-7PQ7-YPFD-S1F\node_modules\jest-jasmine2\build\queueRunner.js:73:41
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    <testcase classname="View" name="should render &quot;Wrong input!&quot; in paragraph when wrong input given" time="0.004">
     </testcase>
   </testsuite>
 </testsuites>
