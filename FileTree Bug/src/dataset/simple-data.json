@@ -1,0 +1,25 @@
+[
+  {
+    "id": 877234010,
+    "name": "project",
+    "type": "DIRECTORY"
+  },
+  {
+    "id": 877234002,
+    "name": "src",
+    "type": "DIRECTORY",
+    "parentId": 877234010
+  },
+  {
+    "id": 877234003,
+    "name": "app",
+    "type": "DIRECTORY",
+    "parentId": 877234002
+  },
+  {
+    "id": 877234004,
+    "name": "app.js",
+    "type": "FILE",
+    "parentId": 877234003
+  }
+]
