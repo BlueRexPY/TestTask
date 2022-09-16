@@ -2,5 +2,5 @@
 
 # repository navigation
 <a href="https://github.com/BlueRexPY/TestTask/tree/main/testtask-userlist" target="_blank">1. User List</a> <br>
-<a href="https://github.com/BlueRexPY/TestTask/tree/main/Spartez%20Software" target="_blank">2. Inline Calculator</a>
+<a href="https://github.com/BlueRexPY/TestTask/tree/main/Spartez%20Software" target="_blank">2. Inline Calculator</a> <br>
 <a href="https://github.com/BlueRexPY/TestTask/tree/main/FileTree%20Bug" target="_blank">3. FileTree Bug</a>
